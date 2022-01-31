@@ -1,0 +1,21 @@
+{
+  "name": "cliente-crud-nodejs",
+  "version": "1.0.0",
+  "description": "API to store clients",
+  "main": "src/index.js",
+  "repository": "https://github.com/Aricandidolira/cliente-crud-nodejs.git",
+  "author": "Ariadne Candido Liranço <aricandidolira@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
